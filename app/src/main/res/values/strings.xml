@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SMS verification</string>
+    <string name="automatic_verification_api">Automatic SMS Verification</string>
+    <string name="sms_user_consent_api">SMS User Consent API</string>
+    <string name="sms_based_verification_apis">SMS-based verification API options:</string>
+    <string name="next">Next</string>
+    <string name="otp_hint">One-Time PIN</string>
+    <string name="options">Options:</string>
+    <string name="specify_number">Specify Number</string>
+    <string name="any_number">Any Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="start">Start</string>
+</resources>
