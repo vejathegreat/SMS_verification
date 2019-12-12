@@ -1,6 +1,5 @@
 package com.velaphi.smsverification
 
-import android.app.Activity
 import android.content.*
 import android.os.Bundle
 import android.util.Log
@@ -9,10 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.phone.SmsRetriever
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.common.api.Status
-import com.velaphi.smsverification.utils.SmsBroadcastReceiver
-import com.velaphi.smsverification.utils.SmsListener
 import kotlinx.android.synthetic.main.activity_user_consent.*
-import java.io.IOException
 import java.util.*
 import java.util.regex.Pattern
 
@@ -27,9 +23,6 @@ class UserConsentActivity : AppCompatActivity() {
         toggleNumber()
         setToolbar()
         start_button.setOnClickListener {
-            //            if(smsVerificationReceiver != null){
-//                unregisterReceiver(smsVerificationReceiver)
-//            }
             startOtpValidation()
         }
 
