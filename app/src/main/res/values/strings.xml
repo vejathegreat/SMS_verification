@@ -10,4 +10,5 @@
     <string name="any_number">Any Number</string>
     <string name="phone_number">Phone Number</string>
     <string name="start">Start</string>
+    <string name="get_otp">Get OTP</string>
 </resources>
